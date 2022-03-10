@@ -1,0 +1,62 @@
+.header {
+  background-image: url(../assets/bg-header.jpg);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  .navbar {
+    margin-top: 3rem;
+    .navbar-brand {
+      text-decoration: underline !important;
+      color: white;
+      font-weight: 700;
+    }
+    .navbar-nav {
+      .nav-item {
+        padding-right: 2rem !important;
+        color: white;
+        font-weight: 700;
+      }
+      .nav-item:hover{
+        color: black;
+        transition: .3s;
+      }
+    }
+  }
+  .btn-head{
+    color: white;
+    background-color: #37C955;
+    border-radius: 0%;
+    width: 10rem;
+  }
+  .btn-head:hover{
+    transform: scale(1.1);
+    transition: .3s;
+  }
+
+  .welcome {
+    text-align: center;
+    padding: 7rem;
+    .titles {
+      .item {
+        margin-bottom: 1.5rem;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+      }
+      h3 {
+        opacity: 70%;
+        font-size: 2rem;
+      }
+      h1 {
+        letter-spacing: 0.2rem !important;
+        font-size: 4rem;
+      }
+      button {
+        font-weight: 300 !important;
+      }
+    }
+  }
+}

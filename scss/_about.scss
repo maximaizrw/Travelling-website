@@ -1,0 +1,38 @@
+.about {
+    padding: 5%;
+  .texts {
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-left: 4rem;
+    h1 {
+      color: #185a23;
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+    h4{
+        color: #185a23;
+        opacity: 80%;
+    }
+    p{
+        font-weight: bold;
+    }
+    .btn-about{
+      background-color: #37C955;
+      border-radius: 0%;
+      font-weight: 700;
+      &:hover{
+        color: white;
+      }
+    }
+
+  }
+
+  .video{
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        height: 25rem;
+        width: 20rem;
+    }
+  }
+}

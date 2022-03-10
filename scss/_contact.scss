@@ -1,0 +1,32 @@
+.contact{
+    padding: 15%;
+    background: linear-gradient(116.49deg, #21482c 3.21%, #37c955 96.77%);
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    .cont-text{
+        color: white;
+    }
+
+    .caja{
+        background-color: white;
+        form{
+            color: #008010;
+            font-weight: bold;
+            .form-control{
+                background-color: #37C955;
+                &::placeholder{
+                    color: black;
+                }
+
+            }
+            .btn-s{
+                margin-top: 5%;
+                background-color: #37C955;
+                border: 1px black;
+                border-style: solid;
+                color: black;
+            }
+        }
+
+        
+    }
+}

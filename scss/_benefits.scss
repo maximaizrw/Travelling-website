@@ -1,0 +1,26 @@
+.benefits {
+  padding: 15%;
+  background: linear-gradient(116.49deg, #21482c 3.21%, #37c955 96.77%);
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+  .texts {
+    //margin-top: 10rem;
+    color: white;
+    h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+    h4 {
+      opacity: 80%;
+    }
+  }
+  .card{
+    border-radius: 0px / 0px;
+    width: 80%;
+    overflow: hidden;
+    height: 25rem;
+    margin: auto;
+      .card-body{
+        text-align: center;
+      }
+  }
+}
